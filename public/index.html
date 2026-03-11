@@ -127,6 +127,13 @@
     "currenciesAccepted": "ZAR",
     "paymentAccepted": "Cash, EFT",
     "openingHours": "Mo-Fr 07:00-17:00",
+    "founder": {
+      "@type": "Person",
+      "name": "Johan",
+      "jobTitle": "Registered Electrician",
+      "knowsAbout": ["Electrical Installations", "COC Certificates of Compliance", "SANS 10142", "Solar PV Systems", "Variable Speed Drives", "Fault Finding"],
+      "worksFor": {"@type": "Electrician", "name": "4C Electrical"}
+    },
     "areaServed": [
       {"@type": "City", "name": "George", "addressRegion": "Western Cape", "addressCountry": "ZA"},
       {"@type": "City", "name": "Mossel Bay", "addressRegion": "Western Cape", "addressCountry": "ZA"},
@@ -269,6 +276,7 @@
           <a href="#why-us" class="text-gray-300 hover:text-gold transition-colors text-sm font-medium">Why Us</a>
           <a href="#coverage" class="text-gray-300 hover:text-gold transition-colors text-sm font-medium">Coverage</a>
           <a href="#reviews" class="text-gray-300 hover:text-gold transition-colors text-sm font-medium">Reviews</a>
+          <a href="#about" class="text-gray-300 hover:text-gold transition-colors text-sm font-medium">About</a>
           <a href="#faq" class="text-gray-300 hover:text-gold transition-colors text-sm font-medium">FAQ</a>
           <a href="tel:+27658656575" class="text-gray-300 hover:text-gold transition-colors text-sm font-medium">065 865 6575</a>
           <a href="#contact" class="bg-gold text-navy font-bold text-sm px-5 py-2 rounded-full hover:bg-yellow-400 transition-all shadow hover:shadow-md">
@@ -295,6 +303,7 @@
         <a href="#why-us" class="block text-gray-300 hover:text-gold py-2.5 text-sm font-medium border-b border-gray-700/50">Why Us</a>
         <a href="#coverage" class="block text-gray-300 hover:text-gold py-2.5 text-sm font-medium border-b border-gray-700/50">Coverage</a>
         <a href="#reviews" class="block text-gray-300 hover:text-gold py-2.5 text-sm font-medium border-b border-gray-700/50">Reviews</a>
+        <a href="#about" class="block text-gray-300 hover:text-gold py-2.5 text-sm font-medium border-b border-gray-700/50">About</a>
         <a href="#faq" class="block text-gray-300 hover:text-gold py-2.5 text-sm font-medium border-b border-gray-700/50">FAQ</a>
         <a href="tel:+27658656575" class="block text-gray-300 hover:text-gold py-2.5 text-sm font-medium border-b border-gray-700/50">065 865 6575</a>
         <a href="#contact" class="block bg-gold text-navy font-bold text-sm px-4 py-3 rounded-full text-center mt-3 hover:bg-yellow-400 transition-colors">
@@ -303,6 +312,8 @@
       </div>
     </div>
   </nav>
+
+  <main>
 
   <!-- ═══════════════════════════════════════════════
        HERO
@@ -328,7 +339,7 @@
 
         <!-- Subheading with GEO-direct answer -->
         <p class="text-lg sm:text-xl text-gray-200 mb-4 max-w-xl leading-relaxed">
-          4C Electrical is a COC-certified electrical contractor based in the Garden Route, South Africa. We handle new electrical installations, expert fault finding, VSD (Variable Speed Drive) commissioning, and solar installations for homes and businesses across George, Mossel Bay, Knysna, and the wider region.
+          4C Electrical is a COC-certified electrical contractor based in the Garden Route, South Africa. We handle new electrical installations, expert fault finding, VSD (Variable Speed Drive) commissioning, and solar installations for homes and businesses across George, Mossel Bay, Knysna, and the wider region. Whether you're a homeowner, farmer, or commercial property owner, our work meets <cite>SANS 10142</cite> (the South African standard for wiring of premises) and includes a Certificate of Compliance (COC) for every qualifying installation.
         </p>
 
         <!-- Key facts bar -->
@@ -568,7 +579,7 @@
             </svg>
           </div>
           <h3 class="font-heading text-white font-bold text-xl mb-3">Safety &amp; Compliance First</h3>
-          <p class="text-gray-400 leading-relaxed">Every job meets <strong class="text-gray-300">SANS 10142</strong> — the South African standard for wiring of premises. We issue Certificates of Compliance (COCs) for all qualifying installations and never cut corners on safety.</p>
+          <p class="text-gray-400 leading-relaxed">Every job meets <a href="https://www.sabs.co.za" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-gold underline underline-offset-2 decoration-gray-500"><strong><cite>SANS 10142</cite></strong></a> — the South African standard for wiring of premises. We issue Certificates of Compliance (COCs) for all qualifying installations and never cut corners on safety.</p>
         </div>
 
         <!-- Quality Workmanship -->
@@ -590,7 +601,7 @@
             </svg>
           </div>
           <h3 class="font-heading text-white font-bold text-xl mb-3">Reliable &amp; Punctual</h3>
-          <p class="text-gray-400 leading-relaxed">We show up when we say we will. Serving homes, farms, and businesses across the Garden Route with consistent, dependable service — Mon to Fri, 07:00–17:00.</p>
+          <p class="text-gray-400 leading-relaxed">We show up when we say we will. Serving homes, farms, and businesses across the Garden Route with consistent, dependable service — <time datetime="Mo,Tu,We,Th,Fr 07:00-17:00">Mon to Fri, 07:00–17:00</time>.</p>
         </div>
 
       </div>
@@ -659,7 +670,7 @@
               </div>
               <div>
                 <p class="text-white font-semibold text-sm">Client, George</p>
-                <p class="text-gray-500 text-xs">Electrical Fault Finding</p>
+                <p class="text-gray-500 text-xs">Electrical Fault Finding · <time datetime="2026-02">Feb 2026</time></p>
               </div>
             </div>
             <div class="flex text-gold" aria-label="5 stars">
@@ -682,7 +693,7 @@
               </div>
               <div>
                 <p class="text-white font-semibold text-sm">Client, Knysna</p>
-                <p class="text-gray-500 text-xs">Solar Installation</p>
+                <p class="text-gray-500 text-xs">Solar Installation · <time datetime="2026-01">Jan 2026</time></p>
               </div>
             </div>
             <div class="flex text-gold" aria-label="5 stars">
@@ -705,7 +716,7 @@
               </div>
               <div>
                 <p class="text-white font-semibold text-sm">Client, George Rural</p>
-                <p class="text-gray-500 text-xs">VSD Installation</p>
+                <p class="text-gray-500 text-xs">VSD Installation · <time datetime="2026-03">Mar 2026</time></p>
               </div>
             </div>
             <div class="flex text-gold" aria-label="5 stars">
@@ -737,6 +748,51 @@
         </a>
       </div>
 
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════
+       ABOUT / CREDENTIALS (Ept01, Ept02, Exp05)
+  ═══════════════════════════════════════════════ -->
+  <section id="about" class="py-16 bg-white scroll-mt-16">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-cream rounded-2xl border border-gray-100 shadow-sm p-8 sm:p-10 flex flex-col sm:flex-row gap-8 items-center sm:items-start fade-up">
+
+        <!-- Avatar -->
+        <div class="flex-shrink-0">
+          <div class="w-24 h-24 rounded-full bg-navy flex items-center justify-center shadow-lg">
+            <span class="font-heading font-black text-gold text-3xl">J</span>
+          </div>
+        </div>
+
+        <!-- Bio -->
+        <div>
+          <p class="text-gold font-semibold text-xs uppercase tracking-widest mb-2">Meet the Electrician</p>
+          <h2 class="font-heading text-navy font-black text-2xl sm:text-3xl mb-3">Johan — Registered Electrician</h2>
+          <p class="text-gray-600 leading-relaxed mb-4">
+            Johan is a registered and COC-certified electrician with years of hands-on experience across the Garden Route. He holds the qualifications required to issue Certificates of Compliance (COCs) under South African law (<cite><a href="https://www.sabs.co.za" target="_blank" rel="noopener noreferrer" class="text-gold hover:underline">SANS 10142</a></cite>) and works across residential, commercial, and agricultural properties in George, Mossel Bay, Knysna, and surrounding towns.
+          </p>
+          <ul class="flex flex-wrap gap-3 text-sm">
+            <li class="flex items-center space-x-1.5 text-gray-600">
+              <svg class="w-4 h-4 text-gold flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              <span>Registered Electrician</span>
+            </li>
+            <li class="flex items-center space-x-1.5 text-gray-600">
+              <svg class="w-4 h-4 text-gold flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              <span>COC Certified</span>
+            </li>
+            <li class="flex items-center space-x-1.5 text-gray-600">
+              <svg class="w-4 h-4 text-gold flex-shrink-0" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/></svg>
+              <span>Garden Route Based</span>
+            </li>
+            <li class="flex items-center space-x-1.5 text-gray-600">
+              <svg class="w-4 h-4 text-gold flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"/></svg>
+              <span>English &amp; Afrikaans</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
     </div>
   </section>
 
@@ -780,7 +836,7 @@
             </svg>
           </button>
           <div class="faq-answer px-6" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-            <p class="text-gray-500 text-sm leading-relaxed" itemprop="text">A <strong>Certificate of Compliance (COC)</strong> is a legal document issued by a registered electrician confirming that an electrical installation meets <strong>SANS 10142</strong> — the South African standard for the wiring of premises. A COC is required by law when selling a property, connecting a new electricity supply, or after major electrical work. 4C Electrical issues COCs for all qualifying installations across the Garden Route.</p>
+            <p class="text-gray-500 text-sm leading-relaxed" itemprop="text">A <strong>Certificate of Compliance (COC)</strong> is a legal document issued by a registered electrician confirming that an electrical installation meets <a href="https://www.sabs.co.za" target="_blank" rel="noopener noreferrer" class="text-gold hover:underline"><strong><cite>SANS 10142</cite></strong></a> — the South African standard for the wiring of premises. A COC is required by law when selling a property, connecting a new electricity supply, or after major electrical work. 4C Electrical issues COCs for all qualifying installations across the Garden Route.</p>
           </div>
         </div>
 
@@ -819,7 +875,7 @@
             </svg>
           </button>
           <div class="faq-answer px-6" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-            <p class="text-gray-500 text-sm leading-relaxed" itemprop="text">Call 4C Electrical on <strong>065 865 6575</strong> or email <strong>johan@4ce.co.za</strong>. We serve the full Garden Route and respond to all enquiries promptly during business hours — Monday to Friday, 07:00–17:00. English and Afrikaans spoken.</p>
+            <p class="text-gray-500 text-sm leading-relaxed" itemprop="text">Call 4C Electrical on <strong>065 865 6575</strong> or email <strong>johan@4ce.co.za</strong>. We serve the full Garden Route and respond to all enquiries promptly during business hours — <time datetime="Mo,Tu,We,Th,Fr 07:00-17:00">Monday to Friday, 07:00–17:00</time>. English and Afrikaans spoken.</p>
           </div>
         </div>
 
@@ -897,7 +953,7 @@
             </svg>
             <div>
               <p class="text-gray-700 text-sm font-semibold">Business Hours</p>
-              <p class="text-gray-500 text-sm">Monday – Friday, 07:00–17:00</p>
+              <p class="text-gray-500 text-sm"><time datetime="Mo,Tu,We,Th,Fr 07:00-17:00">Monday – Friday, 07:00–17:00</time></p>
             </div>
           </div>
           <div class="flex items-start space-x-3 p-4 bg-cream rounded-xl border border-gray-100">
@@ -911,9 +967,15 @@
           </div>
         </div>
 
+        <p class="text-center text-gray-400 text-sm mt-8 max-w-lg mx-auto">
+          4C Electrical serves homeowners, farmers, and businesses across the Garden Route. Whether you need a new installation, a fault resolved, or a solar system designed — we're ready to help.
+        </p>
+
       </div>
     </div>
   </section>
+
+  </main>
 
   <!-- ═══════════════════════════════════════════════
        FOOTER
@@ -953,14 +1015,14 @@
             <li><a href="tel:+27658656575" class="text-gray-400 hover:text-gold transition-colors">065 865 6575</a></li>
             <li><a href="mailto:johan@4ce.co.za" class="text-gray-400 hover:text-gold transition-colors">johan@4ce.co.za</a></li>
             <li><a href="https://wa.me/27658656575" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-gold transition-colors">WhatsApp</a></li>
-            <li class="text-gray-500">Mon–Fri, 07:00–17:00</li>
+            <li class="text-gray-500"><time datetime="Mo,Tu,We,Th,Fr 07:00-17:00">Mon–Fri, 07:00–17:00</time></li>
           </ul>
         </div>
 
       </div>
 
       <div class="border-t border-gray-700 pt-6 text-center">
-        <p class="text-gray-500 text-xs">&copy; 2026 4C Electrical. All rights reserved. | Electrical services across the Garden Route, Western Cape, South Africa. | <a href="/privacy.html" class="hover:text-gray-300 transition-colors">Privacy Policy</a></p>
+        <p class="text-gray-500 text-xs">&copy; 2026 4C Electrical. All rights reserved. | Electrical services across the Garden Route, Western Cape, South Africa. | Last updated: <time datetime="2026-03-11">March 2026</time> | <a href="/privacy.html" class="hover:text-gray-300 transition-colors">Privacy Policy</a></p>
       </div>
     </div>
   </footer>
