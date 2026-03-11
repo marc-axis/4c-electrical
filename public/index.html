@@ -3,7 +3,93 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta -->
   <title>Electrical Services Garden Route | 4C Electrical</title>
+  <meta name="description" content="4C Electrical offers professional electrical services across the Garden Route — new installations, fault finding, VSDs, and solar. Call 065 865 6575." />
+  <meta name="keywords" content="electrician Garden Route, electrical contractor George, electrical services Mossel Bay, solar installation Garden Route, VSD installation, fault finding electrician" />
+  <meta name="author" content="4C Electrical" />
+  <link rel="canonical" href="https://4ce.co.za" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Electrical Services Garden Route | 4C Electrical" />
+  <meta property="og:description" content="Professional electrical solutions for homes and businesses across the Garden Route. New installations, fault finding, VSDs, and solar." />
+  <meta property="og:url" content="https://4ce.co.za" />
+  <meta property="og:image" content="https://4ce.co.za/logo.jpeg" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: '#1B2A4A',
+            gold: '#C9A84C',
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- JSON-LD Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Electrician",
+    "name": "4C Electrical",
+    "telephone": "+27658656575",
+    "email": "johan@4ce.co.za",
+    "url": "https://4ce.co.za",
+    "logo": "https://4ce.co.za/logo.jpeg",
+    "image": "https://4ce.co.za/logo.jpeg",
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Garden Route",
+      "addressRegion": "Western Cape",
+      "addressCountry": "ZA"
+    },
+    "serviceArea": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": -33.9646,
+        "longitude": 22.4617
+      },
+      "geoRadius": "150000"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Electrical Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "New Electrical Installations"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Fault Finding"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "VSD Installations"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Solar Installations"}}
+      ]
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "Western Cape",
+      "addressCountry": "ZA"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+27658656575",
+      "contactType": "customer service",
+      "availableLanguage": ["English", "Afrikaans"]
+    }
+  }
+  </script>
 </head>
 <body>
   <p>Coming soon</p>
