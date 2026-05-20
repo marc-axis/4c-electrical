@@ -39,25 +39,8 @@
   <!-- Preload LCP hero image -->
   <link rel="preload" as="image" href="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1920&q=80" />
 
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            navy: '#1B2A4A',
-            gold: '#C9A84C',
-            cream: '#F7F5F0',
-          },
-          fontFamily: {
-            sans: ['Inter', 'system-ui', 'sans-serif'],
-            heading: ['Poppins', 'system-ui', 'sans-serif'],
-          }
-        }
-      }
-    }
-  </script>
+  <!-- Tailwind CSS (built) -->
+  <link rel="stylesheet" href="/styles.css" />
 
   <style>
     /* Scroll fade-in animation */
